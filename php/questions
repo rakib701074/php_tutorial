@@ -1,0 +1,802 @@
+1. what is variables in php
+. the variables are storage location or
+. the variables are an abstract storage location 
+. the variable can store any kind of data
+.Example: Name,number ect.
+
+use of variables
+.the same data is  used in multiple times
+.display the same in multiple places on the website page
+. use the same number multiple time
+
+
+2. PHP WITH HTML
+. html use to make a static websites
+
+3. display errors 
+.why do we need to display errors 
+. check the PHP.ini file location
+.change display error property
+. test errors
+
+4. constant in php
+.what are constant
+. constant vs variables
+. two ways to define constant
+.examples for constants
+  
+  . first time declare the then u should want to redeclare the data is given the error
+  .cant use $ sign in constants variables 
+  .u can use _ underscore sign in first 
+
+
+  5. data types in php
+  . what is data type
+  .total data types 
+  .name of data types in php
+  .example of all data types
+  .interview questions
+
+  data types....
+  1. string
+  2. integer
+  3. float
+  4. boolean
+  5. null
+  6. array
+  7. object(class)
+  8. resourses
+
+
+  6. how php works
+  why this topic is important
+  .understand the flow of php code
+  why we can not see the php code in the browser 
+  interview questions
+
+ <.......... how php works.................>
+  . web browser server uper request jati hi(http request) ----> web server(execute server hogi then responser send hogi)
+  .http response milta hi server se web browser ko (html ke form mein response krta hi);
+
+
+1........browser ....
+html javascript (js)ko samajta hi because ye client side execute hoti hi
+
+
+<!-- 7. operators(symbels)
+(hote jo kuch input lete hi or in put half pe output dete hi);
+what is operators
+example of operators
+type of operators
+interview questions -->
+
+operaters Name
+1. arithmetic operators
+.Addition(+)
+.substraction(-)
+.multiplication(*)
+.division(/)
+.modulus()
+.exponentiation
+
+2. assignment operators
+use of aggignment operators
+checkout all assignment operators
+interview questions
+
+assignment operators
+1.x = y ---> the left operand gets set to the value of the expression on the right
+2.x + =y ----> addition
+3.x - =y ---> substraction
+4.x * = y ---> multiplication
+5. x / = y ------> division
+6. x % =y ---> modulus
+
+
+3. comparision operators(two se jada input nhi use kr skte comparision operators mein)
+use of comparision operators
+checkout all comparision operators
+example of comparision operators
+interview  
+
+<!-- always return boolean value 1 to 9 -->
+
+1.== -> equal -> $x == $y -> return true if $x is equal to $y
+2. === -> identical -> $x===$y -> return true if $x is equal to $y and the are of the same type
+3. != -> Not equal --> $x != $y -> return true if $x  is not equal to $y;
+<!-- 4. <> -> not equal -> $x <> $y -> return true if $x is not equal to $y; -->
+5. !== -> not identical -> $x !== $y -> return true if $x  is not equal to $y or they are not of the same type
+6. > -->  greater then  -> $x > $y  --> return true if $x is greater then $y
+7. < --> less then -> $x < $y ->return true if $x is less then $y
+8. >= -> greater than or equal to -> $x >= $y -> return true if $x is greater then or   equal to $y
+9. <=  -> less then or equal to  -> $x <= $y -> return true if $x is less then to equal to $y
+
+//spaceship always return integer value
+10. <=> --> spaceship -> $x <=> $y ->  return an integer less then equal to or
+ greater then zero depending on if $x is less then equal to or greater then $y
+
+
+
+4. increments/decrements operators
+
+
+5. logical operaters(koi programming languages ke andr 2 yah do se jada expression combine krna tab hum logical operators use krte hi)
+expression kia hota hi($a==10 variable sath kuch operation perform hoti use expression keh skte hi)
+.use of logical operaters 
+.names of logical operaters
+.example
+.interview questions
+
+1. and(&&) -> true if both $x and $y are true;
+2. or(||)  -----> true is either $x or $y is true;
+3. not(!) ----> true if $x is not true;
+4. xor --> true if either $x or $y is true  but not both
+
+
+6.string operaters
+
+what is string 
+
+use variables inside a string 
+string operators
+interview questions
+
+7. Array operators conditional
+if conditional statement  
+what does  a conditional statement mean
+types of conditional statement in php 
+what is the if condition 
+syntax of if condition
+example
+interview questions 
+
+
+<!-- if else condition use 
+syntax of if-else condition 
+exapmle
+interview questions -->
+
+<!--1. elseif  -->
+<!-- multiple condition apply in elseif
+ -->
+ 
+2. switch statement(multiple conditions use for switch)
+use of switch statement
+syntax
+example
+interview question
+
+difference between elseif(elseif condtion 4 yah 5 condtions tab use krte elseif 15 yah 20 pe elseif use nhi krte) and
+ switch statement(switch statement mein 15 se 20 yah multiple koi bi condition apply kr skte hi( code manage krte elseif better manage krta hi))
+
+
+8. Loops in php
+.what is loops
+ans-> loop will run the same code again and again
+so when we want to run same code multiple times  then we use loops
+
+
+why do we need loops
+ans-> when we want to display same output multiple time
+example ->want to display the series number 
+. display a list of users , products ect,
+make a table of any data
+
+types of loop in php
+1. for loop
+how for loops works
+syntax of for loops
+three main parts of loop
+example
+multiplication table
+interview questions
+
+2. while loops
+how while loop in work
+example
+interview questions
+   
+% declare initial value for loop
+% while(condition){
+%   increments/decrements
+%   can u want to run 
+% }
+
+
+3. do while
+how do while loop works
+example
+interview questions
+
+$i=0;
+do{
+  $i++;
+}while($i < 10);
+
+4. foreach
+
+interview questions
+
+
+9. break and continue in php
+what is break in loop(code execution stop krne ke lie use krte hi or kisi loops ko bich break kr skte hi break ka use krte)
+
+what is continue in loop(3(skip kr dia) yah 4 bi number miss krna ke lie continue use krte hi jis hum chahe kr skte miss)
+example
+
+trick interview questions
+
+
+
+10 . go to statement(go statement ke through skip kr skte hi)
+what is go -to statement
+syntax of go to statement
+example
+example with loops
+interview questions
+
+
+11. functions in php
+what are function 
+. a block of code(a banch of code is called function)
+.used for a specific reason
+. the function can reuse multiple time
+
+
+types of function
+
+(i)user defined function  -> self
+inbuilt function
+
+code->
+(i)simple function 
+(ii)returning value functions
+(iii)anonymous function
+
+(iv)parameterize functions
+what is parameterize function(function call krte hi function kuch data pass krte use parameterize function kehte hi)
+why we need parameter with functions
+syntax
+examples
+interview questions
+
+(v)variables function
+(vi)use of function 
+syntax
+interview questions
+
+
+* function with return  statement...........>
+  (jab ek function hame kuch na kuch output return krta hi tab bolte ki ye return statement hi)
+* what is function  with return
+* why do we need a  function with return........>
+* syntax
+*example
+interview questionss
+
+// important question difference return or echo 
+echo -> display the value
+return -> give the output;
+
+*function with default parameters 
+* what are default params 
+* syntax
+* exapmle
+* interview questions
+
+
+
+* nested functions (function ke andr function)
+what is nested functions 
+syntax
+example
+interview questions
+
+(v)variables function
+what is variables functions 
+syntax
+example
+interview questions
+
+
+
+12. basic but important functions in php
+
+
+13. array in php
+(i)what is array
+collection of data
+store multiple value in a single variable
+
+
+(ii)why do we need an array
+syntax
+example
+//user management 100 user role dekhna hi uske lie hum array use krke store krte hi
+interview questions
+
+*types of array
+(i)indexed array
+ek jaise value jaha pe ho name color hi car hi uske andr index array use kr skte hi
+(ii)associative array
+varity of information(associative array)
+name city state id email -> u should chooose associative array use krna
+  
+
+(iii)multidiemensional
+*what is multidiemensional array
+ek array andr multiple or array hote hi tab usko bolte multidiemensional array
+2.jab ek variable andr multiple arrays stored hoti hi this is called multidiemensional array
+
+*use of multidiemensional array
+
+*syntax and example
+ $arr = [
+  [1,"anil","noida"],
+  [2,"sohel","delhi"],
+ ];
+
+* interview question
+
+
+
+14. foreach loop in php(easy to use)
+(i)associative array(compateble with foreach loop)
+
+(ii)multidiemensional array
+% multidiemensional associative array
+*what is a multidiemensional associative array
+
+*use of multidiemensional associative array
+syntax and example
+interview questions
+
+()use of for each loop
+multiple array use kr skte hi
+multidiemensional use kr skte hi
+ek foreach loop andr nested loop ho skta hi
+
+syntax
+example
+(break and continue)
+the secound way to use for each loop
+interview questions
+
+
+-----.>.................................>..................>
+--------------> display array data in table <--------------
+
+
+
+Remove & Add elements in array
+. add a single  elements
+. add multiple elements
+.remove a single elements
+. remove multiple elements
+. interview questions
+
+
+
+type casting in php(ek data type dushri data type convert kr dete hi use kehte type casting)
+. what is type casting 
+. type of casting
+  (i)string  -> converts to data type string
+  (ii)int ->converts to data type integer
+  (iii)float --> converts to data type float
+  (iv)bool --> converts to data type bool
+  (v)array --> converts to data type array
+  (vi)object --> converts to data type object
+  (vii)unset --> converts to data type null ----> deprecated
+  % (viii) 
+. syntax
+. example
+. interview questions
+
+
+
+
+15. $_Request (get or post dono type ka data ->  $_request milta hi);
+..* what is $_request
+the $_request is a super global variable(wo hota jo globaly kahi pe access kr skte hi)
+inbuilt function in php ki
+
+..* make html and php files 
+..* make input field  in html file
+..* receive data in php file
+..* apply loop on request data
+
+
+//Super Global variables in php
+1.what are super global variables
+
+(i)default variables are defined in php
+(ii)u can access these variables anywhere in project
+
+2.all super global variables
+example
+interview questions
+
+types of super global variables
+(i)$GLOBALS
+ global variables list uthake deta hi
+(ii)$_SERVER
+
+(iii)$_REQUEST
+(iv)$_POST
+(v)$_GET
+(vi)$_FILES
+(i)move_uploaded_file() function (temperary path change hoti hi)
+*/ what is $_files 
+this is a super global variable in php
+* make html and php file
+* write code for upload file
+* interview question
+
+(vii)$_COOKIES*
+(jab koi user hamari website visit krta hi to kaee bar hum chahate uski kuch information browser andr store hojayee ush
+mein use name ho skta hi user login kab kara tha kis country login kara tha basic information ho skti hi)
+
+.cookies in php -> (print the data to display use ($_cookie));
+(cookies ek client hi ish data browser ke uper store hota hi)
+..what are cookies 
+
+.syntax and params
+-> setcookie(name,value,expire,path,domain,secure,httponly);
+httponly(hypertext transfer protocol)
+.set data in cookies
+
+.get data from cookies
+
+.interview question
+
+
+...// cookies with form input  field............./
+..make html input fields 
+.set data in cookies
+. display cookies data
+.delete  cookies data
+.interview questions
+
+
+
+
+
+(viii)$_SESSION
+
+.what is session 
+
+any information save in session in server
+(example some user come to our website and he first login my website and his information save in session server)
+activity store kr skte user ki kia kr raha hi kis time pe login kara save krba skte hi
+
+.why do we use session
+
+. syntaxof session
+.example
+.interview question
+
+step 1. session_start();
+step 2. $_session[name]=value;   //create session
+step 3. echo $_SESSION[name]; //get session value
+
+delete session;
+step 1 session_unset();   //remove all sesssion variable
+step 2 session_destroy(); //destroy the session
+
+(ix)$_ENV
+
+
+
+
+
+
+
+........../// 
+call function on button click php
+(khabi bi php ke andr directly function call nhi hota  request banake call kr skte hi (php server side execute hoti));
+*. make button in html
+*. make function in php
+*. call function on request
+*. interview question
+
+
+
+
+.............
+difference between cookie and session
+................
+1.coookie
+(i)cookies ke andr jo data hi wo browser ke andr store krba ke rakhte hi hum
+(ii)cookies andr jada information store nhi krba skte
+(iii) nonsensetive information save krbate hi (jaise browser konsa tha user kis time login kara eyse information cookies ke andr rakhte hi)
+(iv)or jo information cookies pe rakhte use speed jada hoti(because wo browser utke aati)
+(v)dono he information store krba ne kam aate hi(or agar hum apni website band kr dete hi or dubara se dushri tab open krte hi website open
+krte ho to data wohi pe rahegi delete nhi hogi)
+.......
+2. session
+(iii)session server data store krte hi(session wala data data secure hota hi cookie ke comparision)
+(ii)session jada store krba skte hi
+(iii)jaise user login password eyse chizo ko krbana ho to use krte hi session ka
+(iv) jo data session rakhte uski speed todi kam hoti hi(because wo data server utke aa raha hota hi)
+(v)dono he information store krba ne kam aate hi(or agar hum apni website band kr dete hi or dubara se dushri tab open krte hi website open
+krte ho to data wohi pe rahegi delete nhi hogi)
+
+
+..................
+
+16.create file with php
+.................
+.make a file with static data
+.make html form.
+.get form data in php
+.make file with form data
+.interview question
+
+3 function users
+1.f open (jo use krna chahate wo filename put karo php ke andr server open karege)
+2. f write(content add karege)
+3. f close(badme use close krege)
+
+
+
+4.  read
+
+
+5. list of files from folder in php
+
+.use the path and get the file array
+.remove extra elements
+.use each loop for the display list
+.interview question
+
+
+
+6. handle json in php
+.. what is json (ek server dushre server data bhejne ke lie , api use krte hi,ek languages dushre language bhene ke lie)
+(i) json stands for javascript object notation 
+(ii)it is a text-based data exchange format for structuring data. 
+(iii)it is mainly used to exchange data between a server and a web application
+% (iv)
+% (v)
+
+.(1) convert array to json
+ans-> json_encode(array to convert json);
+
+.(2)convert json to php object
+ ans-> json_decode(json to convert array);
+ 
+
+.(3) convert json to php array
+ans-> json_decode(json to convert array);
+
+.interview questions
+
+
+7. data and time in php
+.how to get current  data.
+..set time zone
+..get current time.
+..get secound,min,hours,day, month, year
+..interview questions
+
+
+8. 10 most important array function
+.important for project
+.important for interviews
+
+
+
+9....///
+.form handling with php
+.make html form with all input types 
+.get html form data in php
+..interview questions
+
+
+10...........//
+DAtabase operations 
+..all operations with ui and sql 
+user inter face (mysql jake directly button wagera click database bana skate hi)
+
+.. what is sql
+structure query language
+two types of database (1) relational database (2) non relational database
+
+(i).. cerate database
+create database mycollage
+(ii)...database list
+show database
+
+(iii)..delete database
+drop database mycollage
+
+
+............//
+11.mysql create table(table ek eyse object hota database ke andr jisesimilar kind of data store krke rakhte hi)
+(i) create  a table with ui
+create table name
+(ii)create table  with sql
+(iii)set primary key in the table
+
+(iv)set auto increment
+(v)
+
+
+12.//////////.......
+(i)Get and search data in table
+(ii)..get data in table with ui
+
+(iii).. get data in table with sql 
+(iv)search data with ui and sql
+
+//13. update and delete data intable
+
+(i)update data in table with ui
+update command -> UPDATE `practice` set age = '24' WHERE `practice`.`id` =1;
+(ii)update data in table with sql
+UPDATE `practice` set age = '24' WHERE `practice`.`id` =1;
+(iii)delete rows from the table with ui
+
+
+(iv)delete row from table and sql
+DELETE from practice WHERE name="irfan";(row)
+(v)
+
+
+
+
+14...////...
+connection php with mysql
+(i)..how many ways do we have to coonnect
+3 ways to connect
+(i)mysqli(i improve mean)
+(ii)pdo
+(iii)...//old varsion(mysql class ke sath mein)
+
+(ii)..make variables for connection
+
+(iii)..make connection with mysqli class
+
+..get the table list from database
+
+15.  php and mysql connection with pdo (php data object)
+..make variables for collection
+..make connect with pdo class
+..get the table list from database
+
+
+
+16..........
+read data from mysql in php
+(i)..make config file
+  
+(ii)..make a file for reading data
+
+(iii)..write code to get data
+
+(iv)..display data in html table
+
+(v)...interview questions
+
+
+17...... 
+..........insert data in mysql table..........
+(i)make file for inserting  data 
+(ii)import config file
+(iii)make html form 
+(iv)insert data in inserted or not 
+(v)interview question
+
+
+
+18..............
+(i)make dropdown with mysql data
+(ii)..make dropdown file
+(iii)..include config file
+(iv)..fetch data from mysql db
+(v)..make dropdown from data
+(vi)..interview questions
+
+
+19...........
+delete record from mysql
+.............................
+(i)make a file for deleting a record
+(ii)include config file
+(iii)delete record with static data
+(iv)display data in list
+(v)add delete  button with list
+(vi)delete data with a button
+
+20......
+popluate data in input fields 
+..make a file for update  a record 
+..include config file
+..add update button with table 
+...get student data with selected id
+..populate data in input fields 
+
+
+21,,,,,,,,,,,,
+update data in mysql table 
+..start from last video
+..update record with static data
+..upadte record with post request
+..check data is updated or not 
+..interview questions
+
+.....................//
+laravel api
+
+next js
+
+
+22......
+search in mysql table with php
+
+..make a form for search 
+..write code for search result
+..search with like operator
+..display searched result
+..interview questions 
+
+
+
+23...........
+php and opps
+
+..what is oop(obejct oriented programming)
+ans-> opps stand for object oriented programming
+opps is a model of programming
+organies software design with classes and object(focues rehta hi classes and objects uper)
+
+..why use opp
+easy  code manage 
+better reusability
+faster and secure
+
+..php and opp
+php supports 2 models for code 
+code and procedural 
+but now most developers use opp
+even laravel and php other framework 
+syntax and mostly things are same 
+many programming languaes support opps model 
+
+
+..interview question
+
+
+
+
+24 .........class and object in opp
+.what is class
+class is a blurprint for crating objects
+template that defines the variables and methods for specific type of object
+
+.what is an object
+an obejct is an instance/copy of a class
+we can create multiple objects
+
+.real world example of class and object
+
+
+.class and object example
+make class 
+make object
+make function in class
+use class functions with objects
+
+ek class ke multiple obejct bana skte hi or multiple times call kr skte hi
+
+
+
+..properties in php class
+
+make class
+make object
+defines properties in class
+update properties with method
+call properties 'upadte properties with method
+
+call properties with object

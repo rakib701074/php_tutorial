@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            /* height: 100%; */
+            width: 300px;
+            background-color: aqua;
+            text-align: center;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            padding: 40px;
+        }
+    </style>
+</head>
+<body>
+    <form action="./form.php" method="post">
+
+        <input type="text" name="name" placeholder="enter user name"><br><br>
+        <input type="email" name="email" placeholder="enter ur email" /><br><br>
+        <input type="password" name="password" placeholder="enter user password"/><br><br>
+        <input type="checkbox" name="skills[]" value="php"><spam>PHP</spam><br>
+        <input type="checkbox" name="skills[]" value="java"><spam>JAVA</spam><br>
+        <input type="checkbox" name="skills[]" value="c++"><spam>C++</spam>
+        <br><br>
+        <input type="checkbox" name="skills[]" value="javascript"><spam>JAVASCRIPT</spam>
+        <br><br>
+        <input type="radio" name="male" value="male"><spam>Male</spam>
+        <br>
+        <input type="radio" name="female" value="female"><spam>Female</spam>
+        <br><br>
+
+         <select name="city">
+            <option>select ur city</option>
+        <option value="noida">Noida</option>
+        <option value="delhi">Delhi</option>
+        <option value="jaipur">Jaipur</option>
+        <option value="jodhpur">jodhpur</option>
+         </select>
+         <br>
+         <br>
+
+         <textarea name="bio"></textarea>
+         <br><br>
+         <button>sign up</button>
+   
+
+    </form>
+    
+</body>
+</html>
